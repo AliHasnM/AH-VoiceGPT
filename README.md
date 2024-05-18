@@ -31,7 +31,7 @@ To run AH VoiceGPT locally, follow these steps:
    ```
 2. **Navigate to the project directory**:
    ```bash
-   cd AH-VoiceGPT/frontend
+   cd AH-VoiceGPT/ah_voicegpt
    ```
 3. **Install dependencies**:
    ```bash
@@ -39,9 +39,9 @@ To run AH VoiceGPT locally, follow these steps:
    ```
 4. **Start the development server**:
    ```bash
-   npm start
+   npm run dev
    ```
-5. **Open your browser and navigate to** `http://localhost:3000`
+5. **Open your browser and navigate to** `http://localhost:5173`
 
 ### Backend Setup
 
@@ -59,7 +59,7 @@ To run AH VoiceGPT locally, follow these steps:
    ```
 4. **Start the backend server**:
    ```bash
-   npm start
+   npm run start
    ```
 
 ### Project Structure
@@ -68,7 +68,7 @@ The project structure is organized as follows:
 
 ```
 AH-VoiceGPT/
-├── frontend/
+├── ah_voicegpt/
 │   ├── public/
 │   │   ├── index.html
 │   └── src/
